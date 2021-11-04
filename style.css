@@ -62,3 +62,14 @@ main {
     margin: 10px 0;
     transform: translateY(-10px);
 }
+
+@media (max-width: 500px) {
+    .color-display {
+        font-size: 2rem;
+    }
+
+    .square {
+        width: 150px;
+        height: 20vh;
+    }
+}
