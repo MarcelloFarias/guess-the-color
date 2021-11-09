@@ -34,6 +34,10 @@ function getRandomBackgrounds(colors, raffledColor) {
 
             if(clickedColor === raffledColor) {
                 displayMessage.innerHTML = `Correct 🎉, ${raffledColor}`;
+                setTimeout(function() {
+                    reset();
+                    init();
+                }, 1500);
             }
             else {
                 displayMessage.innerHTML = `Try agin 👊, ${clickedColor}`;
