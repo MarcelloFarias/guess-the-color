@@ -61,6 +61,11 @@ main {
     cursor: pointer;
     margin: 10px 0;
     transform: translateY(-10px);
+    transition: all 0.2s ease;
+}
+
+.square:hover {
+    transform: translateY(-20px);
 }
 
 @media (max-width: 500px) {
